@@ -1,6 +1,8 @@
 # sequelize-auto-migrations
 Migration generator &amp;&amp; runner for sequelize
 
+> It's a fork of Scimonster/sequelize-auto-migrations that fix the injection vulnerability https://security.snyk.io/vuln/SNYK-JS-SEQUELIZE-2932027
+
 This package provide two tools:
 * `makemigration` - tool for create new migrations
 * `runmigration` - tool for apply created by first tool migrations
